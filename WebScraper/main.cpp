@@ -1,15 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <curl/curl.h>
-
-// Callback function to write the received data into a file
-size_t writecallback(void* contents, size_t size, size_t nmemb, std::ofstream* file) {
-    file->write(static_cast<char*>(contents), size * nmemb);
-    return size * nmemb;
-}
-
-std::string gettext(std::string prompttext);
+#include "webscraper_header.h"
 
 int main() {
     // initialize libcurl
@@ -61,12 +53,4 @@ int main() {
     curl_global_cleanup();
 
     return 0;
-}
-
-std::string gettext(std::string prompttext)
-{
-    std::string text;
-    std::cout << prompttext;
-    std::getline(std::cin, text);
-    return text;
 }

@@ -128,7 +128,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WebScraper.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="webscraper_header.h" />
+    <ClCompile Include="web_scraper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

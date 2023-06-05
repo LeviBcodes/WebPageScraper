@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WebScraper.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webscraper_header.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="web_scraper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
