@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="webscraper_header.h" />
+    <ClCompile Include="web_scraper_header.h" />
     <ClCompile Include="web_scraper.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="webscraper_header.h">
+    <ClCompile Include="web_scraper_header.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="web_scraper.cpp">
